@@ -20,6 +20,13 @@ a:hover {
 	color: #494949;
 }
 
+a.active-link {
+	color: #0b679a;
+}
+a.active-link:hover:after {
+	background: #0b679a;
+}
+
 a {
 	display:inline-block;
 	position: relative;
@@ -179,7 +186,19 @@ li {
 	background-color: #ccc;
 	margin-right: 10px;
 	background-image: url('images/profile.jpg');
+	background-size: contain;
 	border-radius: 50%;
+
+	transition: all 0.2s ease-in-out 0s;
+}
+#picture:hover {
+	-webkit-transform: scale(2);
+	-moz-transform: scale(2);
+	transform: scale(2);
+	background-image: url('images/profile-large.jpg');
+	background-size: contain;
+	margin-right: 30px;
+	margin-left: 20px;
 }
 #picture > a {
 	display: block;
