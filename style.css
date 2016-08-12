@@ -2,6 +2,7 @@ html {
 	color: #494949;
 	font-family: 'Source Sans Pro', sans-serif;
 	font-weight: 300;
+	font-size: 3vw;
 }
 
 
@@ -10,7 +11,7 @@ a {
 	color: #494949;
 	font-weight: 400;
 	border-bottom: solid;
-	border-bottom-width: 2px;
+	border-bottom-width: 0.25vw;
 }
 
 a:hover {
