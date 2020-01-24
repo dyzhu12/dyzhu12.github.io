@@ -2,7 +2,7 @@ body {
 	margin: 40px auto;
 	max-width: 650px;
 	line-height: 1.6;
-	font-size: 18px;
+	font-size: 20px;
 	color: #444;
 	padding: 0 10px;
 	font-family: sans-serif;
@@ -17,4 +17,8 @@ blockquote {
 	padding-left: 1rem;
 	margin-left: 0;
 	margin-right: 0;
+}
+
+@media (min-width: 48em) {
+	body { font-size: 18px; }
 }
