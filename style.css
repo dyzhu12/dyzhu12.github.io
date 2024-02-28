@@ -22,3 +22,12 @@ blockquote {
 @media (min-width: 48em) {
 	body { font-size: 18px; }
 }
+
+.imgContainer {
+	width: 100%;
+}
+
+img {
+	max-width: 100%;
+    max-height: 100%;
+}
